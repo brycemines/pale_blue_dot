@@ -1,0 +1,7 @@
+Title:,"Average CO Emission (ENSEMBLE) monthly 0.5 x 0.625 deg. [MERRA-2 Reanalysis M2TMNXCHM v5.12.4] kg m-2 s-1 for 1980-Jan - 2023-Nov"
+User Start Date:,1980-01-01T00:00:00Z
+User End Date:,2023-12-31T23:59:59Z
+URL to Reproduce Results:,"https://giovanni.gsfc.nasa.gov/giovanni/#service=InTs&seasons=years&starttime=1980-01-01T00%3A00%3A00Z&endtime=2023-12-31T23%3A59%3A59Z&data=M2TMNXCHM_5_12_4_COEM&portal=GIOVANNI&format=json"
+Fill Value:,1000000000000000.0
+Units:,kg m-2 s-1
+Variable Name:,M2TMNXCHM_5_12_4_COEM

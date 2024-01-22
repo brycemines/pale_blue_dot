@@ -1,0 +1,8 @@
+Title:,"Average Temperature (average surface skin) monthly 0.125 deg. [NLDAS Model NLDAS_NOAH0125_M v2.0] K for 1979-01-02 00:00:00Z - 2024-01-01 00:00:00Z"
+User Start Date:,1979-01-01T00:00:00Z
+User End Date:,2023-12-31T23:59:59Z
+URL to Reproduce Results:,"https://giovanni.gsfc.nasa.gov/giovanni/#service=InTs&seasons=years&starttime=1979-01-01T00%3A00%3A00Z&endtime=2023-12-31T23%3A59%3A59Z&data=NLDAS_NOAH0125_M_2_0_AvgSurfT&portal=GIOVANNI&format=json"
+Fill Value:,-9999.0
+Units:,K
+Variable Name:,NLDAS_NOAH0125_M_2_0_AvgSurfT
+
