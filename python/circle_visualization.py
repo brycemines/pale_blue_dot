@@ -12,6 +12,9 @@ class CircleVisualization:
         self.max_value = max(methane_data)
         '''the maximum value in the data'''
 
+        self.min_value = min(methane_data)
+        '''the minimum value in the data'''
+
         self.range = max(methane_data) - min(methane_data)
         '''the range of the data'''
 
@@ -27,10 +30,10 @@ class CircleVisualization:
         self.green = 0
         '''green value for the circles'''
 
-        self.red = 255
+        self.red = 200
         '''red value for the circles'''
 
-        self.blue = 64
+        self.blue = 50
         '''blue value for the circles'''
 
         self.radius_increment = 10
@@ -45,13 +48,16 @@ class CircleVisualization:
         self.cy = 50
         '''y coordinate of the center of the circle'''
 
+        self.figure_scale = 1
+        '''scales the size of the figure'''
+
 
     def draw(self):
         # restart with a blank canvas
-        self.d = draw.Drawing(self.width, self.height, origin='center', fill='black')
+        self.d = draw.Drawing(self.width*self.figure_scale, self.height*self.figure_scale, origin='center', fill='black')
 
-        # draw the background rectangle
-        self.d.append(draw.Rectangle(-200,-100,400,200, fill='black'))
+        # draw the background rectangle, if you want a different color
+        # self.d.append(draw.Rectangle(-200,-100,400 * self.figure_scale,200 * self.figure_scale, fill='black'))
 
         # draw the circles
         for i, value in enumerate(self.data):
@@ -63,15 +69,16 @@ class CircleVisualization:
             color = "rgb("+str(self.red)+","+str(self.green)+","+str(self.blue)+")"
             self.d.append(draw.Circle(self.cx, self.cy, radius, fill=color))
 
-            # draw the year label at the radius + center y
-            print(self.years[i])
-            self.d.append(draw.Text(str(self.years[i]), x=self.cx, y=radius + self.cy + 20, font_size=5, fill='white'))
+        # add a pale blue dot in the center ??
+        # self.d.append(draw.Circle(self.cx, self.cy, 1, fill='rgb(50,50,200)'))
         return self.d
     
 
     def increment_color(self, value: int):
-        # scale the data between 0 and 255
-        self.green = (((value / self.max_value)**16) * 255)
+        # scale the data linearly between 0 and 255
+        self.green = (value - self.min_value - 1) / self.range * 175
+        # invert the green value
+        self.green = 175 - self.green
 
 
     def set_circle_spacing(self, amount: int):
@@ -80,21 +87,7 @@ class CircleVisualization:
 
     def set_circle_max_size(self, amount: int):
         self.max_radius = amount
+
+    def set_figure_scale(self, amount: int):
+        self.figure_scale = amount
     
-
-
-if __name__ == "__main__":
-    methane_data = pd.read_csv('../data/methane.csv')
-
-    year_values = methane_data['TIME'].values
-    methane_values = methane_data['unknown'].values
-
-    # get the most recent 10 years
-    recent_methane_values = methane_values[-10:]
-    recent_year_values = year_values[-10:]
-
-    inv_methane_values = recent_methane_values[::-1]
-    inv_year_values = recent_year_values[::-1]
-
-    methane_viz = CircleVisualization(inv_methane_values, inv_year_values)
-    methane_viz.draw().save_svg('methane.svg')
