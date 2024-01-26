@@ -12,7 +12,7 @@
    inkscape:export-filename="visualization.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -29,15 +29,16 @@
      inkscape:document-units="mm"
      showborder="true"
      inkscape:zoom="0.97018838"
-     inkscape:cx="188.62316"
-     inkscape:cy="457.12772"
-     inkscape:window-width="2240"
-     inkscape:window-height="1366"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:cx="363.3315"
+     inkscape:cy="387.03824"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     inkscape:export-bgcolor="#233447ff" /><defs
+     inkscape:export-bgcolor="#233447ff"
+     showgrid="false" /><defs
      id="defs1"><linearGradient
        id="swatch26"
        inkscape:swatch="solid"><stop
@@ -217,44 +218,44 @@
        transform="translate(-123.35875,-15.784262)"><tspan
          x="327.97461"
          y="53.320947"
-         id="tspan2"><tspan
+         id="tspan9"><tspan
            style="font-weight:bold;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff"
-           id="tspan1">Methane's  Mosaic: Change in  </tspan></tspan></text><text
+           id="tspan4">Methane's  Mosaic: Change in  </tspan></tspan></text><text
        xml:space="preserve"
        id="text4"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';white-space:pre;fill:#ffffff;fill-opacity:1;shape-inside:url(#rect4)"><tspan
          x="326.51758"
          y="177.79417"
-         id="tspan5"><tspan
+         id="tspan12"><tspan
            dx="0 38.359352 32.213524 31.861961 31.861961 31.692688 14.45311 13.333328 44.427063 31.692673 18.880219 32.213501 31.692688 32.213531 31.692688 13.333344 35.572876 32.213531 14.453094 17.760437 18.880188 28.90625"
-           id="tspan3">Annual Methane Shifts </tspan></tspan></text><text
+           id="tspan10">Annual Methane Shifts </tspan></tspan></text><text
        xml:space="preserve"
        id="text5"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';white-space:pre;shape-inside:url(#rect5);fill:#ffffff;fill-opacity:1"
        transform="translate(-94.110677,-62.179575)"><tspan
          x="362.95898"
          y="143.6979"
-         id="tspan7"><tspan
+         id="tspan17"><tspan
            style="font-weight:bold;font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan6">Methane from Previous Year</tspan></tspan></text><text
+           id="tspan16">Methane from Previous Year</tspan></tspan></text><text
        xml:space="preserve"
        id="text6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';white-space:pre;shape-inside:url(#rect6);fill:#ffffff;fill-opacity:1"
        transform="translate(144.83652,42.315312)"><tspan
          x="515.28516"
          y="169.06803"
-         id="tspan13"><tspan
+         id="tspan21"><tspan
            style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8">5.61 ppbv</tspan></tspan></text><text
+           id="tspan18">5.61 ppbv</tspan></tspan></text><text
        xml:space="preserve"
        id="text7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';white-space:pre;shape-inside:url(#rect7);fill:#ffffff;fill-opacity:1"
        transform="translate(115.73494,-31.370226)"><tspan
          x="537.15039"
          y="618.75943"
-         id="tspan15"><tspan
+         id="tspan24"><tspan
            style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan14">0.166 ppbv</tspan></tspan></text><rect
+           id="tspan22">0.166 ppbv</tspan></tspan></text><rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.26248;stroke-dasharray:none;stroke-opacity:1"
        id="rect10"
        width="409.49133"
@@ -309,109 +310,76 @@
        x="407.41849"
        y="249.2614"
        id="text12"
-       transform="translate(-51.082008,-69.364327)"><tspan
+       transform="translate(-18.098722,-89.97888)"><tspan
          x="407.41849"
          y="249.2614"
-         id="tspan23"><tspan
-   style="font-weight:bold"
-   id="tspan22">Methane</tspan>, Earth's
-</tspan><tspan
+         id="tspan25">Methane packs a punch,&#10;</tspan><tspan
          x="407.41849"
          y="279.2614"
-         id="tspan26">  invisible heat blanket, 
-</tspan><tspan
+         id="tspan26"> and is the cause for 25%&#10;</tspan><tspan
          x="407.41849"
          y="309.2614"
-         id="tspan27">    packs a punch, and is 
-</tspan><tspan
+         id="tspan27">  of Earth's warming - &#10;</tspan><tspan
          x="407.41849"
          y="339.2614"
-         id="tspan29">      the cause for <tspan
-   style="font-weight:bold"
-   id="tspan28">25% of 
-</tspan></tspan><tspan
+         id="tspan28">   originating from leaky&#10;</tspan><tspan
          x="407.41849"
          y="369.2614"
-         id="tspan32"><tspan
-   style="font-weight:bold"
-   id="tspan30">        Earth's warming </tspan>-<tspan
-   style="font-weight:bold"
-   id="tspan31"> 
-</tspan></tspan><tspan
+         id="tspan29">    pipes, burping cows, and&#10;</tspan><tspan
          x="407.41849"
          y="399.2614"
-         id="tspan34"><tspan
-   style="font-weight:bold"
-   id="tspan33">          </tspan>from leaky pipes 
-</tspan><tspan
+         id="tspan30">     more. This visual&#10;</tspan><tspan
          x="407.41849"
          y="429.2614"
-         id="tspan35">           to burping cows. 
-</tspan><tspan
+         id="tspan31">      displays the change in&#10;</tspan><tspan
          x="407.41849"
          y="459.2614"
-         id="tspan36">                This increase is 
-</tspan><tspan
+         id="tspan32">       methane from the&#10;</tspan><tspan
          x="407.41849"
          y="489.2614"
-         id="tspan37">                 shown by darker 
-</tspan><tspan
+         id="tspan33">        previous year as a&#10;</tspan><tspan
          x="407.41849"
          y="519.2614"
-         id="tspan38">          reds, whereas 
-</tspan><tspan
+         id="tspan34">         color. The red&#10;</tspan><tspan
          x="407.41849"
          y="549.26143"
-         id="tspan39">          decreases in methane 
-</tspan><tspan
+         id="tspan35">         represents a greater&#10;</tspan><tspan
          x="407.41849"
          y="579.26143"
-         id="tspan40">        is depicted by yellow 
-</tspan><tspan
+         id="tspan36">        increase in methane&#10;</tspan><tspan
          x="407.41849"
          y="609.26143"
-         id="tspan41">       hues. Methane's recent 
-</tspan><tspan
+         id="tspan37">       while the yellow&#10;</tspan><tspan
          x="407.41849"
          y="639.26143"
-         id="tspan43">    decline offers <tspan
-   style="font-weight:bold"
-   id="tspan42">hope</tspan>: quick 
-</tspan><tspan
+         id="tspan38">      represents a smaller&#10;</tspan><tspan
          x="407.41849"
          y="669.26143"
-         id="tspan45">   action can <tspan
-   style="font-weight:bold"
-   id="tspan44">slow climate </tspan></tspan><tspan
+         id="tspan39">     increase. Methane has&#10;</tspan><tspan
          x="407.41849"
          y="699.26143"
-         id="tspan47"><tspan
-   style="font-weight:bold"
-   id="tspan46">change.</tspan> 
-</tspan><tspan
+         id="tspan40">    been increasing in all&#10;</tspan><tspan
          x="407.41849"
          y="729.26143"
-         id="tspan48">
-</tspan><tspan
+         id="tspan41">   years shown but we still&#10;</tspan><tspan
          x="407.41849"
          y="759.26143"
-         id="tspan49">
-</tspan><tspan
+         id="tspan42">  hope that quick action can&#10;</tspan><tspan
          x="407.41849"
          y="789.26143"
-         id="tspan50">Let's all make a change and </tspan><tspan
+         id="tspan43"> slow climate change. &#10;</tspan><tspan
          x="407.41849"
          y="819.26143"
-         id="tspan51">breathe easier, together.
-</tspan><tspan
+         id="tspan44">Let's all make a change and </tspan><tspan
          x="407.41849"
          y="849.26143"
-         id="tspan52">
-</tspan><tspan
+         id="tspan45">breathe easier, together.&#10;</tspan><tspan
          x="407.41849"
          y="879.26143"
-         id="tspan53">
-</tspan></text><text
+         id="tspan46">&#10;</tspan><tspan
+         x="407.41849"
+         y="909.26143"
+         id="tspan47">&#10;</tspan></text><text
        xml:space="preserve"
        id="text15"
        style="fill:#ffffff;fill-opacity:1;font-size:40px;-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;stroke:none;stroke-width:3.19370079;stroke-dasharray:none;stroke-opacity:1;white-space:pre;shape-inside:url(#rect15)" /><text
