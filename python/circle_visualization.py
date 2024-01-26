@@ -78,21 +78,14 @@ class CircleVisualization:
         # restart with a blank canvas
         self.d = draw.Drawing(self.width*self.figure_scale, self.height*self.figure_scale, origin='center', fill='black')
 
-        for i, value in enumerate(self.data):
-            # increment the color
-            self.increment_color(value)
-
-            color = "rgb("+str(self.red)+","+str(self.green)+","+str(self.blue)+")"
-            self.d.append(draw.Rectangle(-100, -50 + i*10, 50, 10, fill=color))
-
-            # add the value as text inside the rectangle
-            print(value)
-            self.d.append(draw.Text(str(value), 0, -50 + i*10, 5, center=False, fill='black'))
-
+        gradient = draw.LinearGradient(250, -50, 275, 50)
+        gradient.add_stop(0, 'red', 1)
+        self.d.append(draw.rectangle(-250,-50,275,50)
         return self.d
 
+    
     def increment_color(self, value: int):
-        # scale the data linearly between 0 and 255
+        # scale the data linearly between 0 and 175
         self.green = (value - self.min_value - 1) / self.range * 175
         # invert the green value
         self.green = 175 - self.green
