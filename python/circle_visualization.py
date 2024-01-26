@@ -72,7 +72,24 @@ class CircleVisualization:
         # add a pale blue dot in the center ??
         # self.d.append(draw.Circle(self.cx, self.cy, 1, fill='rgb(50,50,200)'))
         return self.d
-    
+
+
+    def draw_colorbar(self):
+        # restart with a blank canvas
+        self.d = draw.Drawing(self.width*self.figure_scale, self.height*self.figure_scale, origin='center', fill='black')
+
+        for i, value in enumerate(self.data):
+            # increment the color
+            self.increment_color(value)
+
+            color = "rgb("+str(self.red)+","+str(self.green)+","+str(self.blue)+")"
+            self.d.append(draw.Rectangle(-100, -50 + i*10, 50, 10, fill=color))
+
+            # add the value as text inside the rectangle
+            print(value)
+            self.d.append(draw.Text(str(value), 0, -50 + i*10, 5, center=False, fill='black'))
+
+        return self.d
 
     def increment_color(self, value: int):
         # scale the data linearly between 0 and 255
